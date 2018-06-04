@@ -1,0 +1,24 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "start": "node ./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "es6-promise": "^4.2.4",
+    "ethereumjs-testrpc": "^6.0.3",
+    "express": "^4.16.3",
+    "web3": "^0.20.6"
+  },
+  "devDependencies": {
+    "@types/node": "^10.3.0",
+    "typescript": "^2.9.1"
+  }
+}

@@ -1,0 +1,15 @@
+training = False
+creatingClusters = False
+creatingActivitySequence = False
+numberOfClubsters = 0
+# activity = 'Jumping Jacks'
+# activity = 'Waving left hand'
+# activity = 'DAPT'
+# activity = 'Jumping'
+activity = ''
+activityDetected=''
+monitorActivity=False
+counter=0
+blockchain=False
+clusters=[]
+words=''

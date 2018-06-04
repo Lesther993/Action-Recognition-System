@@ -1,0 +1,3 @@
+*.pyc
+blockchain/nodejs/dist
+blockchain/nodejs/node_modules

@@ -1,0 +1,83 @@
+{'ptscs': 'Biceps Curl'}
+{'tptsc': 'Biceps Curl'}
+{'cstpt': 'Biceps Curl'}
+{'scstp': 'Biceps Curl'}
+{'ptscs': 'Biceps Curl'}
+{'tptsc': 'Biceps Curl'}
+{'cstpt': 'Biceps Curl'}
+{'scstp': 'Biceps Curl'}
+{'ptscs': 'Biceps Curl'}
+{'tptsc': 'Biceps Curl'}
+{'cstpt': 'Biceps Curl'}
+{'scstp': 'Biceps Curl'}
+{'ptscs': 'Biceps Curl'}
+{'tptsc': 'Biceps Curl'}
+{'cstpt': 'Biceps Curl'}
+{'scstp': 'Biceps Curl'}
+{'ptscs': 'Biceps Curl'}
+{'ptscs': 'Biceps Curl'}
+{'tpxpi': 'Biceps Curl'}
+{'dlmgm': 'Dumbbell Shoulder Press'}
+{'mldlm': 'Dumbbell Shoulder Press'}
+{'mgmld': 'Dumbbell Shoulder Press'}
+{'dlmgm': 'Dumbbell Shoulder Press'}
+{'mldlm': 'Dumbbell Shoulder Press'}
+{'gmldl': 'Dumbbell Shoulder Press'}
+{'mgmld': 'Dumbbell Shoulder Press'}
+{'dlmgm': 'Dumbbell Shoulder Press'}
+{'ldlmg': 'Dumbbell Shoulder Press'}
+{'gmldl': 'Dumbbell Shoulder Press'}
+{'mgmld': 'Dumbbell Shoulder Press'}
+{'dlmgm': 'Dumbbell Shoulder Press'}
+{'ldlmg': 'Dumbbell Shoulder Press'}
+{'gmldl': 'Dumbbell Shoulder Press'}
+{'mgmld': 'Dumbbell Shoulder Press'}
+{'lmgml': 'Dumbbell Shoulder Press'}
+{'ayaya': 'Jumping'}
+{'yuyax': 'Jumping'}
+{'uxuax': 'Jumping'}
+{'uyxau': 'Jumping'}
+{'uvxvy': 'Jumping'}
+{'yvxvy': 'Jumping'}
+{'yvxyx': 'Jumping'}
+{'xyvxy': 'Jumping'}
+{'yvxvy': 'Jumping'}
+{'yxvuy': 'Jumping'}
+{'xyuxv': 'Jumping'}
+{'yuxvy': 'Jumping'}
+{'xuxyu': 'Jumping'}
+{'yxyux': 'Jumping'}
+{'xyxyu': 'Jumping'}
+{'auyvh': 'Jumping Jax'}
+{'jfbjh': 'Jumping Jax'}
+{'whjfb': 'Jumping Jax'}
+{'fjhvw': 'Jumping Jax'}
+{'jfbfj': 'Jumping Jax'}
+{'vwhjf': 'Jumping Jax'}
+{'bfhwv': 'Jumping Jax'}
+{'hjbfj': 'Jumping Jax'}
+{'whjfb': 'Jumping Jax'}
+{'fjhwv': 'Jumping Jax'}
+{'jfbfj': 'Jumping Jax'}
+{'vwhjf': 'Jumping Jax'}
+{'bjhwv': 'Jumping Jax'}
+{'hjfbf': 'Jumping Jax'}
+{'hwhjf': 'Jumping Jax'}
+{'bjwhj': 'Jumping Jax'}
+{'fjhwh': 'Jumping Jax'}
+{'fbfju': 'Jumping Jax'}
+{'whjfb': 'Jumping Jax'}
+{'jhwhj': 'Jumping Jax'}
+{'fbfjh': 'Jumping Jax'}
+{'whjfj': 'Jumping Jax'}
+{'whjfj': 'Jumping Jax'}
+{'scqer': 'Squats'}
+{'reqer': 'Squats'}
+{'reqer': 'Squats'}
+{'reqer': 'Squats'}
+{'reqer': 'Squats'}
+{'reqer': 'Squats'}
+{'renqe': 'Squats'}
+{'ereqe': 'Squats'}
+{'reqer': 'Squats'}
+{'rereq': 'Squats'}
