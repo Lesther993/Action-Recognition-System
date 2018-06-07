@@ -1,1 +1,0 @@
-{'repeticiones': [0], 'dias': [1]}
