@@ -2,13 +2,13 @@ import uploadToBlockchain
 import environment
 import ast
 
-environment.address_from = input("Address: ")
-environment.privateKey = input("Private key: ")
+environment.address_from = input("Direccion: ")
+environment.privateKey = input("Llave privada: ")
 
-saveClusters = ast.literal_eval(input("Save Clusters on Blockchain?: "))
+saveClusters = ast.literal_eval(input("Guardar clusters en el blockchain?: "))
 
 if saveClusters:
-	environment.lot = ast.literal_eval(input("Upload Clusters for activity number: "))
+	environment.lot = ast.literal_eval(input("Subir clusters para actividad numero: "))
 	uploadToBlockchain.saveClusters()
 # else:
 # 	saveWords = ast.literal_eval(input("Save Words for Activities on Blockchain?: "))

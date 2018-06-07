@@ -6,16 +6,16 @@ import requests
 import json
 
 def loadClusters():
-	print('Loading clusters')
+	print('Cargando clusters...')
 	if settings.blockchain:
 		r = requests.post("http://localhost:4200/action-recognition/loadClusters")
 		clusters = json.loads(r.content)[u'data'].values()[0]
-		print('Clusters loaded from Blockchain')
+		print('Clusters cargados del blockchain')
 	else:
 		clusters=[]
 		fo = open('actionRecognition/Clusters.txt', 'a+')
 		data = fo.readlines()
-		print('Clusters loaded from TXT file')
+		print('Clusters cargados de archivo TXT')
 		for cluster in data:
 			cluster.strip()
 			clusters.append(ast.literal_eval(cluster))

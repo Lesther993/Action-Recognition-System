@@ -23,7 +23,7 @@ def saveActivityCounterData(counter,activity):
 
 	if (not os.path.isfile(activityFilePath)) or (os.path.isfile(activityFilePath) and (not os.path.getsize(activityFilePath) > 0)): 
 		fo = open(activityFilePath, 'w')
-		activityHistory = {'repetitions': [], 'days': []}
+		activityHistory = {'repeticiones': [], 'dias': []}
 		fo.write(str(activityHistory)+'\n')
 		fo.close()
 		
@@ -33,21 +33,21 @@ def saveActivityCounterData(counter,activity):
 		_activityHistory = data[0]
 		_activityHistory.strip()
 		activityHistory = ast.literal_eval(_activityHistory)
-		activityHistory['repetitions'].append(int(counter))
-		if len(activityHistory['days'])==0:
-			activityHistory['days'].append(1)
+		activityHistory['repeticiones'].append(int(counter))
+		if len(activityHistory['dias'])==0:
+			activityHistory['dias'].append(1)
 		else:
-			activityHistory['days'].append( activityHistory['days'][len(activityHistory['days'])-1]+1 )
+			activityHistory['dias'].append( activityHistory['dias'][len(activityHistory['dias'])-1]+1 )
 		fo.close()
 
 		fo = open(activityFilePath, 'w')
 		# Data for plotting
-		t = np.array(activityHistory['days'])
-		s = np.array(activityHistory['repetitions'])
+		t = np.array(activityHistory['dias'])
+		s = np.array(activityHistory['repeticiones'])
 		fig, ax = plt.subplots()
 		ax.plot(t, s)
-		ax.set(xlabel='Days', ylabel='Repetitions',
-		       title='Number of repetitions per day')
+		ax.set(xlabel='Dias', ylabel='Repeticiones',
+		       title='Numero de repeticiones por dia')
 		ax.grid()
 		fig.savefig(activityFile +'ActivityHistory.png')
 
@@ -69,7 +69,17 @@ def postureToDetect(activity):
 		'Jumping Jacks':'f',
 		'Squats':'q',
 		'Dumbbell Shoulder Press':'m',
-		'Biceps Curl':'t'
+		'Biceps Curl':'t',
+		'Saltando':'y',
+		'Saltos de Tijera':'f',
+		'Sentadillas':'q',
+		'Prensa de Hombro con Mancuernas':'m',
+		'Curl de Biceps':'t'
 	}
-	return switcher.get(activity,'Unknown')
+
+	pose = switcher.get(activity,'Desconocido')
+	if pose=='Desconocido':
+		raise Exception('Invalid Activity')
+
+	return pose
 

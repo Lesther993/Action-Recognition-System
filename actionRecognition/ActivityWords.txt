@@ -1,83 +1,83 @@
-{'ptscs': 'Biceps Curl'}
-{'tptsc': 'Biceps Curl'}
-{'cstpt': 'Biceps Curl'}
-{'scstp': 'Biceps Curl'}
-{'ptscs': 'Biceps Curl'}
-{'tptsc': 'Biceps Curl'}
-{'cstpt': 'Biceps Curl'}
-{'scstp': 'Biceps Curl'}
-{'ptscs': 'Biceps Curl'}
-{'tptsc': 'Biceps Curl'}
-{'cstpt': 'Biceps Curl'}
-{'scstp': 'Biceps Curl'}
-{'ptscs': 'Biceps Curl'}
-{'tptsc': 'Biceps Curl'}
-{'cstpt': 'Biceps Curl'}
-{'scstp': 'Biceps Curl'}
-{'ptscs': 'Biceps Curl'}
-{'ptscs': 'Biceps Curl'}
-{'tpxpi': 'Biceps Curl'}
-{'dlmgm': 'Dumbbell Shoulder Press'}
-{'mldlm': 'Dumbbell Shoulder Press'}
-{'mgmld': 'Dumbbell Shoulder Press'}
-{'dlmgm': 'Dumbbell Shoulder Press'}
-{'mldlm': 'Dumbbell Shoulder Press'}
-{'gmldl': 'Dumbbell Shoulder Press'}
-{'mgmld': 'Dumbbell Shoulder Press'}
-{'dlmgm': 'Dumbbell Shoulder Press'}
-{'ldlmg': 'Dumbbell Shoulder Press'}
-{'gmldl': 'Dumbbell Shoulder Press'}
-{'mgmld': 'Dumbbell Shoulder Press'}
-{'dlmgm': 'Dumbbell Shoulder Press'}
-{'ldlmg': 'Dumbbell Shoulder Press'}
-{'gmldl': 'Dumbbell Shoulder Press'}
-{'mgmld': 'Dumbbell Shoulder Press'}
-{'lmgml': 'Dumbbell Shoulder Press'}
-{'ayaya': 'Jumping'}
-{'yuyax': 'Jumping'}
-{'uxuax': 'Jumping'}
-{'uyxau': 'Jumping'}
-{'uvxvy': 'Jumping'}
-{'yvxvy': 'Jumping'}
-{'yvxyx': 'Jumping'}
-{'xyvxy': 'Jumping'}
-{'yvxvy': 'Jumping'}
-{'yxvuy': 'Jumping'}
-{'xyuxv': 'Jumping'}
-{'yuxvy': 'Jumping'}
-{'xuxyu': 'Jumping'}
-{'yxyux': 'Jumping'}
-{'xyxyu': 'Jumping'}
-{'auyvh': 'Jumping Jax'}
-{'jfbjh': 'Jumping Jax'}
-{'whjfb': 'Jumping Jax'}
-{'fjhvw': 'Jumping Jax'}
-{'jfbfj': 'Jumping Jax'}
-{'vwhjf': 'Jumping Jax'}
-{'bfhwv': 'Jumping Jax'}
-{'hjbfj': 'Jumping Jax'}
-{'whjfb': 'Jumping Jax'}
-{'fjhwv': 'Jumping Jax'}
-{'jfbfj': 'Jumping Jax'}
-{'vwhjf': 'Jumping Jax'}
-{'bjhwv': 'Jumping Jax'}
-{'hjfbf': 'Jumping Jax'}
-{'hwhjf': 'Jumping Jax'}
-{'bjwhj': 'Jumping Jax'}
-{'fjhwh': 'Jumping Jax'}
-{'fbfju': 'Jumping Jax'}
-{'whjfb': 'Jumping Jax'}
-{'jhwhj': 'Jumping Jax'}
-{'fbfjh': 'Jumping Jax'}
-{'whjfj': 'Jumping Jax'}
-{'whjfj': 'Jumping Jax'}
-{'scqer': 'Squats'}
-{'reqer': 'Squats'}
-{'reqer': 'Squats'}
-{'reqer': 'Squats'}
-{'reqer': 'Squats'}
-{'reqer': 'Squats'}
-{'renqe': 'Squats'}
-{'ereqe': 'Squats'}
-{'reqer': 'Squats'}
-{'rereq': 'Squats'}
+{'ptscs': 'Curl de Biceps'}
+{'tptsc': 'Curl de Biceps'}
+{'cstpt': 'Curl de Biceps'}
+{'scstp': 'Curl de Biceps'}
+{'ptscs': 'Curl de Biceps'}
+{'tptsc': 'Curl de Biceps'}
+{'cstpt': 'Curl de Biceps'}
+{'scstp': 'Curl de Biceps'}
+{'ptscs': 'Curl de Biceps'}
+{'tptsc': 'Curl de Biceps'}
+{'cstpt': 'Curl de Biceps'}
+{'scstp': 'Curl de Biceps'}
+{'ptscs': 'Curl de Biceps'}
+{'tptsc': 'Curl de Biceps'}
+{'cstpt': 'Curl de Biceps'}
+{'scstp': 'Curl de Biceps'}
+{'ptscs': 'Curl de Biceps'}
+{'ptscs': 'Curl de Biceps'}
+{'tpxpi': 'Curl de Biceps'}
+{'dlmgm': 'Prensa de Hombro con Mancuernas'}
+{'mldlm': 'Prensa de Hombro con Mancuernas'}
+{'mgmld': 'Prensa de Hombro con Mancuernas'}
+{'dlmgm': 'Prensa de Hombro con Mancuernas'}
+{'mldlm': 'Prensa de Hombro con Mancuernas'}
+{'gmldl': 'Prensa de Hombro con Mancuernas'}
+{'mgmld': 'Prensa de Hombro con Mancuernas'}
+{'dlmgm': 'Prensa de Hombro con Mancuernas'}
+{'ldlmg': 'Prensa de Hombro con Mancuernas'}
+{'gmldl': 'Prensa de Hombro con Mancuernas'}
+{'mgmld': 'Prensa de Hombro con Mancuernas'}
+{'dlmgm': 'Prensa de Hombro con Mancuernas'}
+{'ldlmg': 'Prensa de Hombro con Mancuernas'}
+{'gmldl': 'Prensa de Hombro con Mancuernas'}
+{'mgmld': 'Prensa de Hombro con Mancuernas'}
+{'lmgml': 'Prensa de Hombro con Mancuernas'}
+{'ayaya': 'Saltando'}
+{'yuyax': 'Saltando'}
+{'uxuax': 'Saltando'}
+{'uyxau': 'Saltando'}
+{'uvxvy': 'Saltando'}
+{'yvxvy': 'Saltando'}
+{'yvxyx': 'Saltando'}
+{'xyvxy': 'Saltando'}
+{'yvxvy': 'Saltando'}
+{'yxvuy': 'Saltando'}
+{'xyuxv': 'Saltando'}
+{'yuxvy': 'Saltando'}
+{'xuxyu': 'Saltando'}
+{'yxyux': 'Saltando'}
+{'xyxyu': 'Saltando'}
+{'auyvh': 'Saltos de Tijera'}
+{'jfbjh': 'Saltos de Tijera'}
+{'whjfb': 'Saltos de Tijera'}
+{'fjhvw': 'Saltos de Tijera'}
+{'jfbfj': 'Saltos de Tijera'}
+{'vwhjf': 'Saltos de Tijera'}
+{'bfhwv': 'Saltos de Tijera'}
+{'hjbfj': 'Saltos de Tijera'}
+{'whjfb': 'Saltos de Tijera'}
+{'fjhwv': 'Saltos de Tijera'}
+{'jfbfj': 'Saltos de Tijera'}
+{'vwhjf': 'Saltos de Tijera'}
+{'bjhwv': 'Saltos de Tijera'}
+{'hjfbf': 'Saltos de Tijera'}
+{'hwhjf': 'Saltos de Tijera'}
+{'bjwhj': 'Saltos de Tijera'}
+{'fjhwh': 'Saltos de Tijera'}
+{'fbfju': 'Saltos de Tijera'}
+{'whjfb': 'Saltos de Tijera'}
+{'jhwhj': 'Saltos de Tijera'}
+{'fbfjh': 'Saltos de Tijera'}
+{'whjfj': 'Saltos de Tijera'}
+{'whjfj': 'Saltos de Tijera'}
+{'scqer': 'Sentadillas'}
+{'reqer': 'Sentadillas'}
+{'reqer': 'Sentadillas'}
+{'reqer': 'Sentadillas'}
+{'reqer': 'Sentadillas'}
+{'reqer': 'Sentadillas'}
+{'renqe': 'Sentadillas'}
+{'ereqe': 'Sentadillas'}
+{'reqer': 'Sentadillas'}
+{'rereq': 'Sentadillas'}

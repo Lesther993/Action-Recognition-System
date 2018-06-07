@@ -44,36 +44,36 @@ def depth_frame_ready(frame):
 
 def init():
 
-    settings.training = ast.literal_eval(raw_input("Training phase?: "))
+    settings.training = formatInput(raw_input("Etapa de entrenamiento? (Si/No): "))
     if settings.training:
-        settings.activity = raw_input("Activity to save?: ")
-        settings.creatingClusters = ast.literal_eval(raw_input("Creating Clusters?: "))
+        settings.activity = raw_input("Activividad a guardar?: ")
+        settings.creatingClusters = formatInput(raw_input("Crear clusters? (Si/No): "))
         if settings.creatingClusters:
-            settings.numberOfClubsters = ast.literal_eval(raw_input("Number of Clusters per Activity?: "))
-            print("Creating Clusters in Posture Selection phase...")
+            settings.numberOfClubsters = ast.literal_eval(raw_input("Numero de clusters por actividad?: "))
+            print("Creando clusters en etapa de Seleccion de Postura...")
             PostureSelectionMethod()
         else:
-            settings.creatingActivitySequence = ast.literal_eval(raw_input("Creating Activity Sequence?: "))
+            settings.creatingActivitySequence = formatInput(raw_input("Crear secuencia de actividad? (Si/No): "))
             if settings.creatingActivitySequence:
-                settings.numberOfClubsters = ast.literal_eval(raw_input("Number of Clusters per Activity?: "))
+                settings.numberOfClubsters = ast.literal_eval(raw_input("Numero de clusters por actividad?: "))
                 settings.clusters = ActivityFeatureComputation.loadClusters()
-                print("Creating Activity Sequence in Activity Feature Computation phase...")
+                print("Creando secuencia de actividad en etapa de Calculo de Rasgos de la Actividad...")
             else:
-                print("Save Training Data in Posture Selection phase...")
+                print("Guardar data de entrenamiento en etapa de Seleccion de Postura...")
     else:
-        settings.blockchain = ast.literal_eval(raw_input("Use Activities saved on Blockchain?: "))
+        settings.blockchain = formatInput(raw_input("Usar actividades guardadas en el Blockchain? (Si/No): "))
         settings.clusters = ActivityFeatureComputation.loadClusters()
         settings.words = Classification.loadWords()
         if settings.blockchain:
             settings.numberOfClubsters = 5
         else:
-            settings.numberOfClubsters = ast.literal_eval(raw_input("Number of Clusters per Activity?: "))
-        settings.monitorActivity = ast.literal_eval(raw_input("Monitor Activity?: "))
+            settings.numberOfClubsters = ast.literal_eval(raw_input("Numero de clusters por actividad?: "))
+        settings.monitorActivity =  formatInput(raw_input("Monitorear actividad? (Si/No): "))
         if settings.monitorActivity:
-            settings.activity = raw_input("Activity to monitor?: ")
-            print("Monitoring mode...")
+            settings.activity = raw_input("Actividad a monitorear?: ")
+            print("Modo de monitoreo...")
         else: 
-            print("Test phase...")
+            print("Etapa de prueba...")
 
 
     if not (settings.creatingClusters):
@@ -89,8 +89,8 @@ def init():
         kinect.skeleton_engine.enabled = True
         screen_lock = thread.allocate()
         screen = pygame.display.set_mode(DEPTH_WINSIZE,0,16)    
-        pygame.display.set_caption('Python Kinect Demo')
-        screen.fill(THECOLORS["black"])
+        pygame.display.set_caption('Sistema de reconocimiento de actividades')
+        screen.fill(THECOLORS["white"])
 
         def post_frame(frame):
             try:
@@ -118,15 +118,15 @@ def init():
             elif e.type == KINECTEVENT:
                 skeletons = e.skeletons
                 if draw_skeleton:
-                    pygame.draw.rect(screen,THECOLORS["black"],(0,0,DEPTH_WINSIZE[0],DEPTH_WINSIZE[1]))
+                    pygame.draw.rect(screen, THECOLORS["white"], (0,0,DEPTH_WINSIZE[0],DEPTH_WINSIZE[1]))
                     draw_skeletons(skeletons)
-                    # print settings.activityDetected
+                    # pygame.font.Font(None,60).set_bold(True)
                     activityFont = pygame.font.SysFont("monospace", 25)
-                    activityLabel = activityFont.render(settings.activityDetected, 1, (255,255,0))
+                    activityLabel = activityFont.render(settings.activityDetected, 1, THECOLORS['blue'])
                     screen.blit(activityLabel, (50, 50)) 
                     if settings.monitorActivity:
                         counterFont = pygame.font.SysFont("monospace", 25)
-                        counterLabel = counterFont.render("Repetitions: " + str(int(settings.counter)), 1, (0,255,0))
+                        counterLabel = counterFont.render("Repeticiones: " + str(int(settings.counter)), 1, THECOLORS['purple'])
                         screen.blit(counterLabel, (100, 100))                                                   
                     pygame.display.update()
             elif e.type == KEYDOWN:
@@ -135,3 +135,13 @@ def init():
                     if settings.monitorActivity:
                         Counter.saveActivityCounterData(settings.counter, settings.activity)
                     break
+
+
+
+def formatInput(inputValue):
+    if inputValue=='Si' or inputValue=='si' or inputValue=='SI':
+        return True
+    elif inputValue=='No' or inputValue=='no' or inputValue=='NO':
+        return False
+    else:
+        raise Exception("Invalid input value")
