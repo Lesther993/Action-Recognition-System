@@ -126,7 +126,7 @@ def init():
                     screen.blit(activityLabel, (50, 50)) 
                     if settings.monitorActivity:
                         counterFont = pygame.font.SysFont("monospace", 25)
-                        counterLabel = counterFont.render("Repeticiones: " + str(int(settings.counter)), 1, THECOLORS['purple'])
+                        counterLabel = counterFont.render("Repeticiones: " + str(int(settings.counter)), 1, THECOLORS['black'])
                         screen.blit(counterLabel, (100, 100))                                                   
                     pygame.display.update()
             elif e.type == KEYDOWN:
